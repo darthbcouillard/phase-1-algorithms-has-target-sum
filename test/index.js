@@ -22,6 +22,6 @@ describe("hasTargetSum", () => {
     expect(hasTargetSum([2, 2, 3, 3], 4)).to.be.true;
   });
   it("returns false when the array is [4] and the target is 4", () => {
-    expect(hasTargetSum([4], 5)).to.be.false;
+    expect(hasTargetSum([4], 4)).to.be.false;
   });
 });
